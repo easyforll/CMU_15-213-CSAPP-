@@ -1,0 +1,5 @@
+howmanybits needs tricky solution.
+first ,you need to handle the negative or positive number.
+Then ,tough you just need to find the highest position,the ban of control flow constrains the original solution.
+	In addition ,the solution of bit by bit would break the limit of the number of operations,90.
+So, the solution is binary way.Solve 16 bits and use the index variable to shift the right bits.16->8->4->2->1.
